@@ -19,7 +19,7 @@ Em um arquivo aparte, associe cada tag HTML com o respectivo número da área qu
     <b>header, nav, main, h1, h2 e img.</b> </p>
 <section align="center" >
   <figure >
-<img src="/img/1-desafio.png" height="200" width="400">
+<img src="/img/1-desafio.png" height="400" width="800">
   </figure>
   <br>
    <figcaption>1- Figura mostra o exercício de HTML e identificadas as tags. </figcaption>
