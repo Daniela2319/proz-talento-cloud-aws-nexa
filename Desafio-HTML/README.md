@@ -17,7 +17,7 @@ Em um arquivo aparte, associe cada tag HTML com o respectivo número da área qu
 
 <section align="center" >
   <figure >
-<img src="/img/1-Exercicio.png" height="200" width="400">
+<img src="/img/1-desafio.png" height="200" width="400">
   </figure>
   <br>
    <figcaption>1-figura mostra o exercicío de HTML</figcaption>
@@ -39,6 +39,7 @@ Em um arquivo aparte, associe cada tag HTML com o respectivo número da área qu
    <figcaption aling="left">3-figura mostra o exercicío de HTML para suas identifacação de tags.</figcaption>
 </section>
 
+<br>
 
 # Tecnologia 
 Esse projeto foi desenvolvindo com as seguintes tecnologias:
