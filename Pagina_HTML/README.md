@@ -13,7 +13,7 @@ Crie o corpo de uma página sobre lugares turísticos na Europa. Nela, você dev
 
 <p align="center">
   <figure>
-<img src="img/Captura de tela 2023-10-02 171203.png" height="400" width="800">
+<img src="img/Captura de tela 2023-10-02 171203.png" height="300" width="500">
   </figure>
    <figcaption>Figura mostra corpo html na web.</figcaption>
 </p>
