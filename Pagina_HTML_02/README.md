@@ -16,13 +16,14 @@ A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pont
 
 <br>
 
-
-  <figure align="center">
-<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/6814d0cc-c3e4-49d9-a94c-1ca54ae6adea" height="300" width="500">
-  </figure>
+<p align="center">
+<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/6814d0cc-c3e4-49d9-a94c-1ca54ae6adea" height="400" width="800">
   <br>
- <figcaption>Figura mostra como ficou este exercício de Html e Css.</figcaption>
- 
+      
+ </p>
+ <p align="center">
+    Figura mostra como ficou este exercício de Html e Css.
+ </p>
 <br>
 
 # Tecnologia
