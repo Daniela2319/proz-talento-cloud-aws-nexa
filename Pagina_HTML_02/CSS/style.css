@@ -5,6 +5,8 @@ body {
   line-height: 1.6;
 }
 
+/*Menu*/
+
 #navbar {
   display: flex;
   justify-content: space-around;
@@ -34,6 +36,19 @@ body {
   color: #999;
   transition: color 0.3s;
 }
+
+@media (max-width: 920px) {
+  main #navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  main #navbar .nav-lista {
+    text-align: center;
+  }
+}
+
+/*banner*/
 
 h1 {
   text-align: center;
@@ -78,6 +93,19 @@ h1 a:hover {
   margin: 10px 10px 10px 10px;
   padding: 0 0 0 70px;
 }
+
+@media (max-width: 920px) {
+  main #banner {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  main #banner .container {
+    text-align: center;
+  }
+}
+
+/*Rodapé*/
 
 footer .rodape {
   display: flex;
