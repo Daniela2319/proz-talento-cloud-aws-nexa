@@ -16,22 +16,12 @@ A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pont
 <br>
 
 <p align="center">
-<img src="/img/Cabeçalho-site.png" height="400" width="800">
+<img src="img/Cabeçalho-site.png" height="400" width="800">
   <br>
       
  </p>
  <p align="center">
     01 - Figura mostra como ficou este exercício de HTML e CSS.
- </p>
-<br>
-
-<p align="center">
-<img src="/img/Rodapé-site.png" height="400" width="800">
-  <br>
-      
- </p>
- <p align="center">
-    02 - Figura mostra o rodapé do site.
  </p>
 <br>
 
