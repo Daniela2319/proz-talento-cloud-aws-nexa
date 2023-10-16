@@ -16,7 +16,7 @@ A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pont
 <br>
 
 <p align="center">
-<img src="/img/Cabeçalho-site.png" height="400" width="800">
+<img src="img/Cabeçalho-site.png" height="400" width="800">
   <br>
       
  </p>
