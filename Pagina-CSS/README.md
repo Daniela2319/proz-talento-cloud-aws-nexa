@@ -25,16 +25,6 @@ A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pont
  </p>
 <br>
 
-<p align="center">
-<img src="/img/Rodapé-site.png" height="400" width="800">
-  <br>
-      
- </p>
- <p align="center">
-    02 - Figura mostra o rodapé do site.
- </p>
-<br>
-
 # Tecnologia
 
 Esse projeto foi desenvolvindo com as seguintes tecnologias:

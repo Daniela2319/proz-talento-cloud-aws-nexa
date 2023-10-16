@@ -14,7 +14,7 @@ header #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 
   margin: 16px;
 }
@@ -24,10 +24,26 @@ header #navbar .nav-img {
   border: 1px solid blue;
 }
 
+@media (max-width: 600px) {
+  header #navbar .nav-img {
+    width: 50px;
+  }
+  header #navbar h1 {
+    font-size: 12px;
+    padding: 2px;
+  }
+}
+
 header #navbar .nav-lista {
   display: flex;
   list-style: none;
   gap: 2rem;
+}
+
+@media (max-width: 800px) {
+  header #navbar .nav-lista {
+    display: none;
+  }
 }
 
 header #navbar .nav-lista .nav-item a {
@@ -42,10 +58,34 @@ header #navbar .nav-lista .nav-item a:hover {
   color: #fff;
 }
 
+header #navbar .mobile {
+  width: 50px;
+
+  display: none;
+}
+
+@media (max-width: 800px) {
+  header #navbar .mobile {
+    display: block;
+    background: transparent;
+  }
+}
+
+/*banner*/
+
 main .titulo a {
   color: #7e9f19;
   text-decoration: none;
   margin: 16px;
+}
+
+@media (max-width: 600px) {
+  main .titulo a {
+    font-size: 20px;
+  }
+  main h2 {
+    font-size: 16px;
+  }
 }
 
 main .titulo a:hover {
@@ -62,6 +102,12 @@ section .place {
   padding: 20px;
 }
 
+@media (max-width: 600px) {
+  section .place {
+    flex-direction: column;
+  }
+}
+
 section h2 {
   margin: 16px;
   padding: 10px;
@@ -74,14 +120,28 @@ section .place p {
   padding: 20px;
 }
 
+@media (max-width: 600px) {
+  section .place p {
+    font-size: 16px;
+    align-items: center;
+  }
+}
+
 section .place img {
   border: 1px solid #7e9f19;
   float: left;
-  margin: 10px 10px 0 0;
+  margin: 10px;
   padding: 0.1rem;
   width: 300px;
 }
 
+@media (max-width: 600px) {
+  section .place img {
+    margin-left: auto;
+  }
+}
+
+/*Rodape*/
 footer .rodape {
   display: flex;
   justify-content: space-between;
@@ -89,6 +149,15 @@ footer .rodape {
   background-color: #fff;
   padding: 20px;
   margin: 16px;
+}
+
+@media (max-width: 600px) {
+  footer .rodape p {
+    font-size: 10px;
+  }
+  footer .rodape-item img {
+    width: 22px;
+  }
 }
 
 footer .rodape .rodape-list {
