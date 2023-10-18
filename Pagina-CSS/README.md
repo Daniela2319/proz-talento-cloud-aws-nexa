@@ -11,7 +11,7 @@
 
 A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pontos turísticos e um deles é o Marco Zero. Sabendo disso, crie uma página HTML, falando sobre esse ponto turístico de acordo com os seguintes pré-requisitos:
 
-1.  A página precisa ter cabeçalho, conteúdo, rodapé e com estilização do CSS;
+1.  A página precisa ter cabeçalho, conteúdo, rodapé e com estilização do CSS; E a assim foi o resultado desse exercício.
 
 <br>
 
@@ -22,6 +22,21 @@ A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pont
  </p>
  <p align="center">
     01 - Figura mostra como ficou este exercício de HTML e CSS.
+ </p>
+<br>
+ </p>
+ 
+2. Na imagem abaixo depois do site pronto, a utilização do responsivel para se acessando com os modelos mobile.
+
+<br>
+
+ <p align="center">
+<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/2c4759be-4a34-4c9d-a31c-c2ae577ab093" height="400" width="300">
+  <br>
+<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/a61307f0-4297-4fab-b66b-6c997ba44534" height="400" width="300">
+  <br>
+ <p>
+   
  </p>
 <br>
 
