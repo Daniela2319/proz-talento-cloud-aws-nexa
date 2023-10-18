@@ -14,9 +14,8 @@ Tira um print de alguma seção de uma página web na qual você tenha identific
 O JavaScript é uma linguagem de programação que é executada no lado do cliente e permite que os desenvolvedores criem páginas da web interativas e dinâmicas. O JavaScript pode ser usado para criar **efeitos visuais, validar formulários, criar animações, atualizar conteúdo dinamicamente** e muito mais.
 
 <br>
-
 <p align="center">
-<img src="img/Captura de tela 2023-10-18 152432.png" height="100" width="100">
+<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/6553c500-8253-4fe1-95ac-c8ad6bcbf9c6" height="100" width="800">
   <br>
       
  </p>
@@ -30,8 +29,9 @@ O JavaScript é uma linguagem de programação que é executada no lado do clien
 
 <br>
 
+
  <p align="center">
-<img src="/img/Captura de tela 2023-10-18 152523.png" height="400" width="300">
+<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/b130755a-6e9c-4dec-aa9a-7a466ee08386" height="100" width="800">
   <br>
     <p align="center">
     02 - Figura mostra um carrinho de compra com o número 2 indica que tem dois produtos no carrinho.
