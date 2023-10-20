@@ -48,7 +48,6 @@ Esse projeto foi desenvolvindo com as seguintes tecnologias:
 
 # Autor
 
-_Daniela Velter_
-<br>
-<br>
+<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/5cc8a2d8-32a6-4764-a37a-b91588041b1a" height="50" width="50">
+
 [![Linkedin](https://img.shields.io/badge/DANIELA-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniela-velter-231485f/)
