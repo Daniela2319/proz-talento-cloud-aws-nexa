@@ -9,7 +9,13 @@ necessário para avaliar cada elemento do array e imprimir uma frase seguindo al
 const numerosDaSorte = [37, 14, 26, 5, 94, 87];
 
 for (let i = 0; i < numerosDaSorte.length; i++) {
-  if (numerosDaSorte[i] % 2 === 0 && numerosDaSorte[i] < 50) {
+  const numero = numerosDaSorte[i];
+
+  if (numero % 2 === 0 && numero < 50) {
     console.log("Numero da sorte é par e menor que 50: ", numerosDaSorte[i]);
+  } else if (numero < 50) {
+    console.log("Numero da sorte é menor que 50: ", numerosDaSorte[i]);
+  } else {
+    console.log("Numero da sorte é maior que 50: ", numerosDaSorte[i]);
   }
 }
