@@ -15,9 +15,10 @@ Agora você pode fazer um código para testa na web, com botão direito do mouse
 
 <br>
 <p align="center">
-<img src="" height="100" width="800">
+<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/82d758b8-2444-4cfd-a3a8-135d4a57987e" height="100" width="500">
   <br>
-      
+     
+ 
  </p>
  <p align="center">
     Figura 01 - Console no browser.
@@ -32,6 +33,8 @@ Agora você pode fazer um código para testa na web, com botão direito do mouse
 Esse projeto foi desenvolvindo com as seguintes tecnologias:
 
 - IDE VisualStudio Code
+- HTML
+- JavaScript
 - Git e Github
 
 # Autor
