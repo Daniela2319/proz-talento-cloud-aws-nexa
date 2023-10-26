@@ -9,3 +9,8 @@ function conexao(num1, num2) {
 }
 
 conexao(5, 2);
+
+const multiplicar = (num1, num2) => num1 * num2;
+
+const numero = multiplicar(2, 10);
+console.log(numero);
