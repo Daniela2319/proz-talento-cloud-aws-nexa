@@ -26,7 +26,6 @@ Agora você pode fazer um código para testa no navegador, com botão direito do
 <br>
  </p>
  
- Por exemplo, um site de comércio eletrônico (Casa Bahia) pode usar JavaScript para criar um carrinho de compras que atualiza automaticamente quando um usuário adiciona um item ao carrinho.
 
 # Tecnologia
 
