@@ -13,9 +13,10 @@ Crie um projeto com dois arquivos:`index.html e script.js`. No arquivo 'index' i
 
 No arquivo `script.js` capture os quatro elementos criados, e use a propriedade `.innerText` para adicionar conteúdo textual aos elementos `h1` e `a`, e a propriedade `.innerHTML` para adicionar três itens simples na lista não ordenada, e três itens com links para outros sites na lista ordenada.
 
+
 <br>
 <p align="center">
-<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/82d758b8-2444-4cfd-a3a8-135d4a57987e" height="100" width="500">
+<img src="https://github.com/Daniela2319/proz-talento-cloud-aws-nexa/assets/106537496/467c4998-846f-4f7f-b619-04d4aec76ada" height="500" width="600">
   <br>
 
  </p>
