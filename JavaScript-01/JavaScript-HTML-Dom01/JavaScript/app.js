@@ -10,29 +10,36 @@ Usando os conceitos aprendidos nesse módulo, e sem alterar o arquivo index.html
 
 // Método simples: criando elementos e atribuindo conteúdo diretamente
 
-//criando um elemento para o titulo
-const titulo = document.createElement("h1");
+const linhaPaes = [
+  {
+    titulo: "Pão Integral",
+    descricao: "Farinha integral, açucar mascado, gordura, sal e fermento",
+    preco: "Preço: R$ 12,00",
+  },
+  {
+    titulo: "Pão Françês",
+    descricao: "Farinha trigo, açucar, gordura, sal e fermento",
+    preco: "Preço: R$ 9,90",
+  },
+];
 
-//manipulando o elemento
-titulo.id = "titulo";
-titulo.innerText = "Produtos em Destaque";
+for (let i = 0; i < linhaPaes.length; i++) {
+  // console.log(linhaPaes[i]);
 
-//capturando o 'elemento pai' dos elementos 'titulo' e 'produto'
-const body = document.querySelector("body");
+  //criado um elemento div
+  const elementoProduto = document.createElement("div");
 
-//adicionando o elemento 'titulo' no Dom
-body.appendChild(titulo);
-
-//criado uma div
-const elementoProduto = document.createElement("div");
-elementoProduto.innerHTML = `
-<h2>Pão de forma</h2>
-<p>Farinha trigo, açucar, gordura e fermento.</p>
-<p>Preço R$ 10,00</p>
+  //manipulando o elemento
+  elementoProduto.innerHTML = `
+<h2>${linhaPaes[i].titulo}</h2>
+<p>${linhaPaes[i].descricao}</p>
+<p>${linhaPaes[i].preco}</p>
 <img src="/img/um-pedaco-de-pao-com-a-palavra-pao-nele.jpg" alt="Pão de forma" width="100px">
 `;
 
-console.log(elementoProduto);
+  elementoProduto.id = `produto${i + 1}`;
 
-//adicionando o elemento 'produto' no Dom
-produto.appendChild(elementoProduto);
+  //adicionando o elemento na pagina.
+  let body = document.querySelector("body");
+  produto.appendChild(elementoProduto);
+}
