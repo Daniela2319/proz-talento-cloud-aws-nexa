@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "nome": "Notebook Lenovo Ideapad S145",
+    "marca": "Lenovo",
+    "categoria": "Informática",
+    "preço": 3499.99,
+    "quantidade_em_estoque": 10,
+    "pronta_entrega": true
+  },
+  {
+    "id": 2,
+    "nome": "Smartphone Samsung Galaxy S20",
+    "marca": "Samsung",
+    "categoria": "Eletrônicos",
+    "preço": 3999.9,
+    "quantidade_em_estoque": 5,
+    "pronta_entrega": false
+  },
+  {
+    "id": 3,
+    "nome": "Tênis Adidas Ultraboost 21",
+    "marca": "Adidas",
+    "categoria": "Moda",
+    "preço": 799.99,
+    "quantidade_em_estoque": 20,
+    "pronta_entrega": true
+  }
+]
