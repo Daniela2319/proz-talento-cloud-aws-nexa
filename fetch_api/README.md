@@ -13,7 +13,7 @@
      </p>
 <section align="center" >
   <figure >
-<img src="img.png" height="400" width="1000">
+<img src="img.png" height="400" width="600">
   </figure>
   
 </section>
