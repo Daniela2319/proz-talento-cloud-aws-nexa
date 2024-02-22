@@ -1,0 +1,44 @@
+body {
+  background-color: #58378c;
+  color: #fefefe;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: #6c3c9d;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px 40px 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ef7d19;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #866545;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
