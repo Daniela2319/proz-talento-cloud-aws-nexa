@@ -65,3 +65,11 @@ textarea {
 .usuario img {
   height: 80px;
 }
+
+.postagem {
+  background-color: #6c3c9d;
+  width: 400px;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}

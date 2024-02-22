@@ -32,14 +32,55 @@ function gerarUsuario() {
 // 3. Eventos
 btnUsuario.addEventListener("click", gerarUsuario);
 
-//maneira complicada para entende com chama uma api.
-// const resposta = fetch("https://random-data-api.com/api/v2/users");
-// console.log(resposta);
+// -------- Gerador de postagens -------- //
+// 1. Captura de elementos
+const postTitle = document.getElementById("post-title");
+const postBody = document.getElementById("post-body");
+const btnPost = document.getElementById("btn-post");
+const postsContainer = document.getElementById("posts-container");
+const helperTextPost = document.getElementById("helper-text-post");
+// 2. Funções
+function gerarPost(evento) {
+  helperTextPost.innerText = "";
+  evento.preventDefault();
 
-// const tratamentoResposta = resposta.then((res) => {
-//   console.log(res);
-//   return res.json();
-// });
-// tratamentoResposta.then((data) => {
-//   console.log(data);
-// });
+  const jsonBody = JSON.stringify({
+    titulo: postTitle.value,
+    mensagem: postBody.value,
+  });
+
+  fetch("https://jsonplaceholder.typicode.com/posts", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: jsonBody,
+  })
+    .then((res) => res.json()) //retorna a resposta do servidor
+    .then((data) => {
+      console.log(data);
+      //criando
+      const post = document.createElement("div");
+      //adiciona classe para estilizar
+      post.classList.add("postagem");
+      //manipulando
+      post.innerHTML = `
+      <h3>${data.id} - ${data.titulo}</h3> 
+      <p>${data.mensagem}</p>
+    `;
+      //adicionando no dom
+      postsContainer.prepend(post);
+
+      //Limpar o formulário
+      postTitle.value = "";
+      postBody.value = "";
+      alert("Mensagem enviada com sucesso!");
+    })
+    .catch((error) => {
+      console.log(error);
+      helperTextPost.innerText = "Não foi possivel gerar a postagem :(";
+    });
+}
+
+// 3. Eventos
+btnPost.addEventListener("click", (evento) => gerarPost(evento));
